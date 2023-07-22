@@ -17,4 +17,4 @@ This React project focuses on building a cart management system using the `useRe
 
 ### Preview
 
-<img src="./src/assets/cart-app.png" alt="ReactUseReducerCart App">
+<img src="public/use-reducer-cart.png" alt="ReactUseReducerCart App">
