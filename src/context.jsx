@@ -1,6 +1,6 @@
-import { createContext, useContext, useReducer, useEffect } from "react";
-import reducer from "./reducer";
-import { getTotals } from "./utils";
+import { createContext, useContext, useReducer, useEffect } from 'react';
+import reducer from './reducer';
+import { getTotals } from './utils';
 
 import {
   CLEAR_CART,
@@ -9,9 +9,9 @@ import {
   DECREASE,
   LOADING,
   DISPLAY_ITEMS,
-} from "./actions";
+} from './actions';
 
-const url = "https://www.course-api.com/react-useReducer-cart-project";
+const url = 'https://www.course-api.com/react-useReducer-cart-project';
 
 const AppContext = createContext();
 
@@ -60,8 +60,7 @@ export const AppProvider = ({ children }) => {
         decrease,
         totalAmount,
         totalCost,
-      }}
-    >
+      }}>
       {children}
     </AppContext.Provider>
   );

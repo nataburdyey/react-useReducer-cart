@@ -4,7 +4,7 @@ export const getTotals = (cart) => {
 
   for (let { amount, price } of cart.values()) {
     totalAmount += amount;
-    totalCost+= amount * price;
+    totalCost += amount * price;
   }
   return { totalAmount, totalCost };
 };
